@@ -1,3 +1,5 @@
+# This is Kahn's algorithm
+
 def constructadj(V, edges):
     adj = [[] for _ in range(V)]  # Create a list for each vertex
     for u, v in edges:
